@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header-logo{
+    height: 100px;
+    width: 100%;
+    background-image: url(./img/final.jpg);
+
+}
+.img{
+    height: 80px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: rgb(25, 90, 155);
+
+    
+
+}
+.element-left{
+    width: 70%;
+    /* background-color:black; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.element-left li{
+    list-style: none;
+    padding: 14px;
+
+}
+.element-left a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 25px ;
+
+
+}
+.element-left a:hover {
+    color:black;
+
+}
+.search-right{
+    width: 30%;
+     /* background-color: black; */
+     
+     text-align: right;
+     padding: 0px 23px;
+}
+
+
+.carousel-inner{
+    width: 100%;
+    height: 650px;
+}
+img {
+    height: 650px;
+    width: 100%;
+
+
+}
+.btn{
+    color: white;
+}
+/* .footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(25, 90, 155);
+    color: white;
+
+} */
+.content{
+    padding:2.5%;
+    display: flex;
+    flex-direction: row;
+    /* background-image: url(img/last\ part.jpg); */
+}
+#info1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image{
+    height: 50px;
+    width: 50px;
+    margin:20px;
+}
+.members1{
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.card-img-top{
+    height: 290px;
+    width: 180px;
+}
+.members2{
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoimg img{
+    height: 110px;
+    width:110px;
+    background-repeat: no-repeat;
+    padding: 12px;
+    margin: 0px;
+    border-radius: 50px;
+
+
+}
+.restp{
+    /* background-image: url(./img/last\ part.jpg); */
+    /* background-repeat: no-repeat; */
+    background-color:whitesmoke;
+    
+    
+}
+.searchInput{
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.btn-ieee{
+    border-radius: 50px;
+    padding: 3px;
+
+}
+
+
+
+
